@@ -1,0 +1,38 @@
+[
+	{
+		"slug": "loadEl",
+		"title": "Loading Screen",
+		"viewType": "layer",
+		"order": 0
+	},
+	{
+		"slug": "landingEl",
+		"title": "Landing Page",
+		"viewType": "page",
+		"order": 1
+	},
+	{
+		"slug": "fightEl",
+		"title": "Fighter Page",
+		"viewType": "page",
+		"order": 2
+	},
+	{
+		"slug": "opponEl",
+		"title": "Opponent Page",
+		"viewType": "page",
+		"order": 3
+	},
+	{
+		"slug": "arenaEl",
+		"title": "Arena Page",
+		"viewType": "page",
+		"order": 4
+	},
+	{
+		"slug": "resultEl",
+		"title": "Result Page",
+		"viewType": "layer",
+		"order": 5
+	}
+]

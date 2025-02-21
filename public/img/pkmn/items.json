@@ -1,0 +1,402 @@
+[
+	{
+		"id": 0,
+		"name": "None"
+	},
+	{
+		"id": 1,
+		"name": "Master Ball"
+	},
+	{
+		"id": 2,
+		"name": "Ultra Ball"
+	},
+	{
+		"id": 3,
+		"name": "Great Ball"
+	},
+	{
+		"id": 4,
+		"name": "Poké Ball"
+	},
+	{
+		"id": 5,
+		"name": "Safari Ball"
+	},
+	{
+		"id": 6,
+		"name": "Net Ball"
+	},
+	{
+		"id": 7,
+		"name": "Dive Ball"
+	},
+	{
+		"id": 8,
+		"name": "Nest Ball"
+	},
+	{
+		"id": 9,
+		"name": "Repeat Ball"
+	},
+	{
+		"id": 10,
+		"name": "Timer Ball"
+	},
+	{
+		"id": 11,
+		"name": "Luxury Ball"
+	},
+	{
+		"id": 12,
+		"name": "Premier Ball"
+	},
+	{
+		"id": 13,
+		"name": "Dusk Ball"
+	},
+	{
+		"id": 14,
+		"name": "Heal Ball"
+	},
+	{
+		"id": 15,
+		"name": "Quick Ball"
+	},
+	{
+		"id": 16,
+		"name": "Cherish Ball"
+	},
+	{
+		"id": 17,
+		"name": "Potion"
+	},
+	{
+		"id": 18,
+		"name": "Antidote"
+	},
+	{
+		"id": 19,
+		"name": "Burn Heal"
+	},
+	{
+		"id": 20,
+		"name": "Ice Heal"
+	},
+	{
+		"id": 21,
+		"name": "Awakening"
+	},
+	{
+		"id": 22,
+		"name": "Paralyze Heal"
+	},
+	{
+		"id": 23,
+		"name": "Full Restore"
+	},
+	{
+		"id": 24,
+		"name": "Max Potion"
+	},
+	{
+		"id": 25,
+		"name": "Hyper Potion"
+	},
+	{
+		"id": 26,
+		"name": "Super Potion"
+	},
+	{
+		"id": 27,
+		"name": "Full Heal"
+	},
+	{
+		"id": 28,
+		"name": "Revive"
+	},
+	{
+		"id": 29,
+		"name": "Max Revive"
+	},
+	{
+		"id": 30,
+		"name": "Fresh Water"
+	},
+	{
+		"id": 31,
+		"name": "Soda Pop"
+	},
+	{
+		"id": 32,
+		"name": "Lemonade"
+	},
+	{
+		"id": 33,
+		"name": "Moomoo Milk"
+	},
+	{
+		"id": 34,
+		"name": "Energy Powder"
+	},
+	{
+		"id": 35,
+		"name": "Energy Root"
+	},
+	{
+		"id": 36,
+		"name": "Heal Powder"
+	},
+	{
+		"id": 37,
+		"name": "Revival Herb"
+	},
+	{
+		"id": 38,
+		"name": "Ether"
+	},
+	{
+		"id": 39,
+		"name": "Max Ether"
+	},
+	{
+		"id": 40,
+		"name": "Elixir"
+	},
+	{
+		"id": 41,
+		"name": "Max Elixir"
+	},
+	{
+		"id": 42,
+		"name": "Lava Cookie"
+	},
+	{
+		"id": 43,
+		"name": "Berry Juice"
+	},
+	{
+		"id": 44,
+		"name": "Sacred Ash"
+	},
+	{
+		"id": 45,
+		"name": "HP Up"
+	},
+	{
+		"id": 46,
+		"name": "Protein"
+	},
+	{
+		"id": 47,
+		"name": "Iron"
+	},
+	{
+		"id": 48,
+		"name": "Carbos"
+	},
+	{
+		"id": 49,
+		"name": "Calcium"
+	},
+	{
+		"id": 50,
+		"name": "Rare Candy"
+	},
+	{
+		"id": 51,
+		"name": "PP Up"
+	},
+	{
+		"id": 52,
+		"name": "Zinc"
+	},
+	{
+		"id": 53,
+		"name": "PP Max"
+	},
+	{
+		"id": 54,
+		"name": "Old Gateau"
+	},
+	{
+		"id": 55,
+		"name": "Guard Spec."
+	},
+	{
+		"id": 56,
+		"name": "Dire Hit"
+	},
+	{
+		"id": 57,
+		"name": "X Attack"
+	},
+	{
+		"id": 58,
+		"name": "X Defense"
+	},
+	{
+		"id": 59,
+		"name": "X Speed"
+	},
+	{
+		"id": 60,
+		"name": "X Accuracy"
+	},
+	{
+		"id": 61,
+		"name": "X Sp. Atk"
+	},
+	{
+		"id": 62,
+		"name": "X Sp. Def"
+	},
+	{
+		"id": 63,
+		"name": "Poké Doll"
+	},
+	{
+		"id": 64,
+		"name": "Fluffy Tail"
+	},
+	{
+		"id": 65,
+		"name": "Blue Flute"
+	},
+	{
+		"id": 66,
+		"name": "Yellow Flute"
+	},
+	{
+		"id": 67,
+		"name": "Red Flute"
+	},
+	{
+		"id": 68,
+		"name": "Black Flute"
+	},
+	{
+		"id": 69,
+		"name": "White Flute"
+	},
+	{
+		"id": 70,
+		"name": "Shoal Salt"
+	},
+	{
+		"id": 71,
+		"name": "Shoal Shell"
+	},
+	{
+		"id": 72,
+		"name": "Red Shard"
+	},
+	{
+		"id": 73,
+		"name": "Blue Shard"
+	},
+	{
+		"id": 74,
+		"name": "Yellow Shard"
+	},
+	{
+		"id": 75,
+		"name": "Green Shard"
+	},
+	{
+		"id": 76,
+		"name": "Super Repel"
+	},
+	{
+		"id": 77,
+		"name": "Max Repel"
+	},
+	{
+		"id": 78,
+		"name": "Escape Rope"
+	},
+	{
+		"id": 79,
+		"name": "Repel"
+	},
+	{
+		"id": 80,
+		"name": "Sun Stone"
+	},
+	{
+		"id": 81,
+		"name": "Moon Stone"
+	},
+	{
+		"id": 82,
+		"name": "Fire Stone"
+	},
+	{
+		"id": 83,
+		"name": "Thunder Stone"
+	},
+	{
+		"id": 84,
+		"name": "Water Stone"
+	},
+	{
+		"id": 85,
+		"name": "Leaf Stone"
+	},
+	{
+		"id": 86,
+		"name": "Tiny Mushroom"
+	},
+	{
+		"id": 87,
+		"name": "Big Mushroom"
+	},
+	{
+		"id": 88,
+		"name": "Pearl"
+	},
+	{
+		"id": 89,
+		"name": "Big Pearl"
+	},
+	{
+		"id": 90,
+		"name": "Stardust"
+	},
+	{
+		"id": 91,
+		"name": "Star Piece"
+	},
+	{
+		"id": 92,
+		"name": "Nugget"
+	},
+	{
+		"id": 93,
+		"name": "Heart Scale"
+	},
+	{
+		"id": 94,
+		"name": "Honey"
+	},
+	{
+		"id": 95,
+		"name": "Growth Mulch"
+	},
+	{
+		"id": 96,
+		"name": "Damp Mulch"
+	},
+	{
+		"id": 97,
+		"name": "Stable Mulch"
+	},
+	{
+		"id": 98,
+		"name": "Gooey Mulch"
+	},
+	{
+		"id": 99,
+		"name": "Root Fossil"
+	}
+]

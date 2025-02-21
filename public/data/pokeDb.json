@@ -1,0 +1,2528 @@
+{
+	"pokedex": [
+		{
+			"id": 1,
+			"name": "Bulbasaur",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 45,
+				"Attack": 49,
+				"Defense": 49,
+				"Sp_Attack": 65,
+				"Sp_Defense": 65,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 2,
+			"name": "Ivysaur",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 60,
+				"Attack": 62,
+				"Defense": 63,
+				"Sp_Attack": 80,
+				"Sp_Defense": 80,
+				"Speed": 60
+			}
+		},
+		{
+			"id": 3,
+			"name": "Venusaur",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 80,
+				"Attack": 82,
+				"Defense": 83,
+				"Sp_Attack": 100,
+				"Sp_Defense": 100,
+				"Speed": 80
+			}
+		},
+		{
+			"id": 4,
+			"name": "Charmander",
+			"type": ["Fire"],
+			"base": {
+				"HP": 39,
+				"Attack": 52,
+				"Defense": 43,
+				"Sp_Attack": 60,
+				"Sp_Defense": 50,
+				"Speed": 65
+			}
+		},
+		{
+			"id": 5,
+			"name": "Charmeleon",
+			"type": ["Fire"],
+			"base": {
+				"HP": 58,
+				"Attack": 64,
+				"Defense": 58,
+				"Sp_Attack": 80,
+				"Sp_Defense": 65,
+				"Speed": 80
+			}
+		},
+		{
+			"id": 6,
+			"name": "Charizard",
+			"type": ["Fire", "Flying"],
+			"base": {
+				"HP": 78,
+				"Attack": 84,
+				"Defense": 78,
+				"Sp_Attack": 109,
+				"Sp_Defense": 85,
+				"Speed": 100
+			}
+		},
+		{
+			"id": 7,
+			"name": "Squirtle",
+			"type": ["Water"],
+			"base": {
+				"HP": 44,
+				"Attack": 48,
+				"Defense": 65,
+				"Sp_Attack": 50,
+				"Sp_Defense": 64,
+				"Speed": 43
+			}
+		},
+		{
+			"id": 8,
+			"name": "Wartortle",
+			"type": ["Water"],
+			"base": {
+				"HP": 59,
+				"Attack": 63,
+				"Defense": 80,
+				"Sp_Attack": 65,
+				"Sp_Defense": 80,
+				"Speed": 58
+			}
+		},
+		{
+			"id": 9,
+			"name": "Blastoise",
+			"type": ["Water"],
+			"base": {
+				"HP": 79,
+				"Attack": 83,
+				"Defense": 100,
+				"Sp_Attack": 85,
+				"Sp_Defense": 105,
+				"Speed": 78
+			}
+		},
+		{
+			"id": 10,
+			"name": "Caterpie",
+			"type": ["Bug"],
+			"base": {
+				"HP": 45,
+				"Attack": 30,
+				"Defense": 35,
+				"Sp_Attack": 20,
+				"Sp_Defense": 20,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 11,
+			"name": "Metapod",
+			"type": ["Bug"],
+			"base": {
+				"HP": 50,
+				"Attack": 20,
+				"Defense": 55,
+				"Sp_Attack": 25,
+				"Sp_Defense": 25,
+				"Speed": 30
+			}
+		},
+		{
+			"id": 12,
+			"name": "Butterfree",
+			"type": ["Bug", "Flying"],
+			"base": {
+				"HP": 60,
+				"Attack": 45,
+				"Defense": 50,
+				"Sp_Attack": 90,
+				"Sp_Defense": 80,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 13,
+			"name": "Weedle",
+			"type": ["Bug", "Poison"],
+			"base": {
+				"HP": 40,
+				"Attack": 35,
+				"Defense": 30,
+				"Sp_Attack": 20,
+				"Sp_Defense": 20,
+				"Speed": 50
+			}
+		},
+		{
+			"id": 14,
+			"name": "Kakuna",
+			"type": ["Bug", "Poison"],
+			"base": {
+				"HP": 45,
+				"Attack": 25,
+				"Defense": 50,
+				"Sp_Attack": 25,
+				"Sp_Defense": 25,
+				"Speed": 35
+			}
+		},
+		{
+			"id": 15,
+			"name": "Beedrill",
+			"type": ["Bug", "Poison"],
+			"base": {
+				"HP": 65,
+				"Attack": 90,
+				"Defense": 40,
+				"Sp_Attack": 45,
+				"Sp_Defense": 80,
+				"Speed": 75
+			}
+		},
+		{
+			"id": 16,
+			"name": "Pidgey",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 40,
+				"Attack": 45,
+				"Defense": 40,
+				"Sp_Attack": 35,
+				"Sp_Defense": 35,
+				"Speed": 56
+			}
+		},
+		{
+			"id": 17,
+			"name": "Pidgeotto",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 63,
+				"Attack": 60,
+				"Defense": 55,
+				"Sp_Attack": 50,
+				"Sp_Defense": 50,
+				"Speed": 71
+			}
+		},
+		{
+			"id": 18,
+			"name": "Pidgeot",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 83,
+				"Attack": 80,
+				"Defense": 75,
+				"Sp_Attack": 70,
+				"Sp_Defense": 70,
+				"Speed": 101
+			}
+		},
+		{
+			"id": 19,
+			"name": "Rattata",
+			"type": ["Normal"],
+			"base": {
+				"HP": 30,
+				"Attack": 56,
+				"Defense": 35,
+				"Sp_Attack": 25,
+				"Sp_Defense": 35,
+				"Speed": 72
+			}
+		},
+		{
+			"id": 20,
+			"name": "Raticate",
+			"type": ["Normal"],
+			"base": {
+				"HP": 55,
+				"Attack": 81,
+				"Defense": 60,
+				"Sp_Attack": 50,
+				"Sp_Defense": 70,
+				"Speed": 97
+			}
+		},
+		{
+			"id": 21,
+			"name": "Spearow",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 40,
+				"Attack": 60,
+				"Defense": 30,
+				"Sp_Attack": 31,
+				"Sp_Defense": 31,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 22,
+			"name": "Fearow",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 65,
+				"Attack": 90,
+				"Defense": 65,
+				"Sp_Attack": 61,
+				"Sp_Defense": 61,
+				"Speed": 100
+			}
+		},
+		{
+			"id": 23,
+			"name": "Ekans",
+			"type": ["Poison"],
+			"base": {
+				"HP": 35,
+				"Attack": 60,
+				"Defense": 44,
+				"Sp_Attack": 40,
+				"Sp_Defense": 54,
+				"Speed": 55
+			}
+		},
+		{
+			"id": 24,
+			"name": "Arbok",
+			"type": ["Poison"],
+			"base": {
+				"HP": 60,
+				"Attack": 95,
+				"Defense": 69,
+				"Sp_Attack": 65,
+				"Sp_Defense": 79,
+				"Speed": 80
+			}
+		},
+		{
+			"id": 25,
+			"name": "Pikachu",
+			"type": ["Electric"],
+			"base": {
+				"HP": 35,
+				"Attack": 55,
+				"Defense": 40,
+				"Sp_Attack": 50,
+				"Sp_Defense": 50,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 26,
+			"name": "Raichu",
+			"type": ["Electric"],
+			"base": {
+				"HP": 60,
+				"Attack": 90,
+				"Defense": 55,
+				"Sp_Attack": 90,
+				"Sp_Defense": 80,
+				"Speed": 110
+			}
+		},
+		{
+			"id": 27,
+			"name": "Sandshrew",
+			"type": ["Ground"],
+			"base": {
+				"HP": 50,
+				"Attack": 75,
+				"Defense": 85,
+				"Sp_Attack": 20,
+				"Sp_Defense": 30,
+				"Speed": 40
+			}
+		},
+		{
+			"id": 28,
+			"name": "Sandslash",
+			"type": ["Ground"],
+			"base": {
+				"HP": 75,
+				"Attack": 100,
+				"Defense": 110,
+				"Sp_Attack": 45,
+				"Sp_Defense": 55,
+				"Speed": 65
+			}
+		},
+		{
+			"id": 29,
+			"name": "Nidoran♀",
+			"type": ["Poison"],
+			"base": {
+				"HP": 55,
+				"Attack": 47,
+				"Defense": 52,
+				"Sp_Attack": 40,
+				"Sp_Defense": 40,
+				"Speed": 41
+			}
+		},
+		{
+			"id": 30,
+			"name": "Nidorina",
+			"type": ["Poison"],
+			"base": {
+				"HP": 70,
+				"Attack": 62,
+				"Defense": 67,
+				"Sp_Attack": 55,
+				"Sp_Defense": 55,
+				"Speed": 56
+			}
+		},
+		{
+			"id": 31,
+			"name": "Nidoqueen",
+			"type": ["Poison", "Ground"],
+			"base": {
+				"HP": 90,
+				"Attack": 92,
+				"Defense": 87,
+				"Sp_Attack": 75,
+				"Sp_Defense": 85,
+				"Speed": 76
+			}
+		},
+		{
+			"id": 32,
+			"name": "Nidoran♂",
+			"type": ["Poison"],
+			"base": {
+				"HP": 46,
+				"Attack": 57,
+				"Defense": 40,
+				"Sp_Attack": 40,
+				"Sp_Defense": 40,
+				"Speed": 50
+			}
+		},
+		{
+			"id": 33,
+			"name": "Nidorino",
+			"type": ["Poison"],
+			"base": {
+				"HP": 61,
+				"Attack": 72,
+				"Defense": 57,
+				"Sp_Attack": 55,
+				"Sp_Defense": 55,
+				"Speed": 65
+			}
+		},
+		{
+			"id": 34,
+			"name": "Nidoking",
+			"type": ["Poison", "Ground"],
+			"base": {
+				"HP": 81,
+				"Attack": 102,
+				"Defense": 77,
+				"Sp_Attack": 85,
+				"Sp_Defense": 75,
+				"Speed": 85
+			}
+		},
+		{
+			"id": 35,
+			"name": "Clefairy",
+			"type": ["Fairy"],
+			"base": {
+				"HP": 70,
+				"Attack": 45,
+				"Defense": 48,
+				"Sp_Attack": 60,
+				"Sp_Defense": 65,
+				"Speed": 35
+			}
+		},
+		{
+			"id": 36,
+			"name": "Clefable",
+			"type": ["Fairy"],
+			"base": {
+				"HP": 95,
+				"Attack": 70,
+				"Defense": 73,
+				"Sp_Attack": 95,
+				"Sp_Defense": 90,
+				"Speed": 60
+			}
+		},
+		{
+			"id": 37,
+			"name": "Vulpix",
+			"type": ["Fire"],
+			"base": {
+				"HP": 38,
+				"Attack": 41,
+				"Defense": 40,
+				"Sp_Attack": 50,
+				"Sp_Defense": 65,
+				"Speed": 65
+			}
+		},
+		{
+			"id": 38,
+			"name": "Ninetales",
+			"type": ["Fire"],
+			"base": {
+				"HP": 73,
+				"Attack": 76,
+				"Defense": 75,
+				"Sp_Attack": 81,
+				"Sp_Defense": 100,
+				"Speed": 100
+			}
+		},
+		{
+			"id": 39,
+			"name": "Jigglypuff",
+			"type": ["Normal", "Fairy"],
+			"base": {
+				"HP": 115,
+				"Attack": 45,
+				"Defense": 20,
+				"Sp_Attack": 45,
+				"Sp_Defense": 25,
+				"Speed": 20
+			}
+		},
+		{
+			"id": 40,
+			"name": "Wigglytuff",
+			"type": ["Normal", "Fairy"],
+			"base": {
+				"HP": 140,
+				"Attack": 70,
+				"Defense": 45,
+				"Sp_Attack": 85,
+				"Sp_Defense": 50,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 41,
+			"name": "Zubat",
+			"type": ["Poison", "Flying"],
+			"base": {
+				"HP": 40,
+				"Attack": 45,
+				"Defense": 35,
+				"Sp_Attack": 30,
+				"Sp_Defense": 40,
+				"Speed": 55
+			}
+		},
+		{
+			"id": 42,
+			"name": "Golbat",
+			"type": ["Poison", "Flying"],
+			"base": {
+				"HP": 75,
+				"Attack": 80,
+				"Defense": 70,
+				"Sp_Attack": 65,
+				"Sp_Defense": 75,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 43,
+			"name": "Oddish",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 45,
+				"Attack": 50,
+				"Defense": 55,
+				"Sp_Attack": 75,
+				"Sp_Defense": 65,
+				"Speed": 30
+			}
+		},
+		{
+			"id": 44,
+			"name": "Gloom",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 60,
+				"Attack": 65,
+				"Defense": 70,
+				"Sp_Attack": 85,
+				"Sp_Defense": 75,
+				"Speed": 40
+			}
+		},
+		{
+			"id": 45,
+			"name": "Vileplume",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 75,
+				"Attack": 80,
+				"Defense": 85,
+				"Sp_Attack": 110,
+				"Sp_Defense": 90,
+				"Speed": 50
+			}
+		},
+		{
+			"id": 46,
+			"name": "Paras",
+			"type": ["Bug", "Grass"],
+			"base": {
+				"HP": 35,
+				"Attack": 70,
+				"Defense": 55,
+				"Sp_Attack": 45,
+				"Sp_Defense": 55,
+				"Speed": 25
+			}
+		},
+		{
+			"id": 47,
+			"name": "Parasect",
+			"type": ["Bug", "Grass"],
+			"base": {
+				"HP": 60,
+				"Attack": 95,
+				"Defense": 80,
+				"Sp_Attack": 60,
+				"Sp_Defense": 80,
+				"Speed": 30
+			}
+		},
+		{
+			"id": 48,
+			"name": "Venonat",
+			"type": ["Bug", "Poison"],
+			"base": {
+				"HP": 60,
+				"Attack": 55,
+				"Defense": 50,
+				"Sp_Attack": 40,
+				"Sp_Defense": 55,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 49,
+			"name": "Venomoth",
+			"type": ["Bug", "Poison"],
+			"base": {
+				"HP": 70,
+				"Attack": 65,
+				"Defense": 60,
+				"Sp_Attack": 90,
+				"Sp_Defense": 75,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 50,
+			"name": "Diglett",
+			"type": ["Ground"],
+			"base": {
+				"HP": 10,
+				"Attack": 55,
+				"Defense": 25,
+				"Sp_Attack": 35,
+				"Sp_Defense": 45,
+				"Speed": 95
+			}
+		},
+		{
+			"id": 51,
+			"name": "Dugtrio",
+			"type": ["Ground"],
+			"base": {
+				"HP": 35,
+				"Attack": 100,
+				"Defense": 50,
+				"Sp_Attack": 50,
+				"Sp_Defense": 70,
+				"Speed": 120
+			}
+		},
+		{
+			"id": 52,
+			"name": "Meowth",
+			"type": ["Normal"],
+			"base": {
+				"HP": 40,
+				"Attack": 45,
+				"Defense": 35,
+				"Sp_Attack": 40,
+				"Sp_Defense": 40,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 53,
+			"name": "Persian",
+			"type": ["Normal"],
+			"base": {
+				"HP": 65,
+				"Attack": 70,
+				"Defense": 60,
+				"Sp_Attack": 65,
+				"Sp_Defense": 65,
+				"Speed": 115
+			}
+		},
+		{
+			"id": 54,
+			"name": "Psyduck",
+			"type": ["Water"],
+			"base": {
+				"HP": 50,
+				"Attack": 52,
+				"Defense": 48,
+				"Sp_Attack": 65,
+				"Sp_Defense": 50,
+				"Speed": 55
+			}
+		},
+		{
+			"id": 55,
+			"name": "Golduck",
+			"type": ["Water"],
+			"base": {
+				"HP": 80,
+				"Attack": 82,
+				"Defense": 78,
+				"Sp_Attack": 95,
+				"Sp_Defense": 80,
+				"Speed": 85
+			}
+		},
+		{
+			"id": 56,
+			"name": "Mankey",
+			"type": ["Fighting"],
+			"base": {
+				"HP": 40,
+				"Attack": 80,
+				"Defense": 35,
+				"Sp_Attack": 35,
+				"Sp_Defense": 45,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 57,
+			"name": "Primeape",
+			"type": ["Fighting"],
+			"base": {
+				"HP": 65,
+				"Attack": 105,
+				"Defense": 60,
+				"Sp_Attack": 60,
+				"Sp_Defense": 70,
+				"Speed": 95
+			}
+		},
+		{
+			"id": 58,
+			"name": "Growlithe",
+			"type": ["Fire"],
+			"base": {
+				"HP": 55,
+				"Attack": 70,
+				"Defense": 45,
+				"Sp_Attack": 70,
+				"Sp_Defense": 50,
+				"Speed": 60
+			}
+		},
+		{
+			"id": 59,
+			"name": "Arcanine",
+			"type": ["Fire"],
+			"base": {
+				"HP": 90,
+				"Attack": 110,
+				"Defense": 80,
+				"Sp_Attack": 100,
+				"Sp_Defense": 80,
+				"Speed": 95
+			}
+		},
+		{
+			"id": 60,
+			"name": "Poliwag",
+			"type": ["Water"],
+			"base": {
+				"HP": 40,
+				"Attack": 50,
+				"Defense": 40,
+				"Sp_Attack": 40,
+				"Sp_Defense": 40,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 61,
+			"name": "Poliwhirl",
+			"type": ["Water"],
+			"base": {
+				"HP": 65,
+				"Attack": 65,
+				"Defense": 65,
+				"Sp_Attack": 50,
+				"Sp_Defense": 50,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 62,
+			"name": "Poliwrath",
+			"type": ["Water", "Fighting"],
+			"base": {
+				"HP": 90,
+				"Attack": 95,
+				"Defense": 95,
+				"Sp_Attack": 70,
+				"Sp_Defense": 90,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 63,
+			"name": "Abra",
+			"type": ["Psychic"],
+			"base": {
+				"HP": 25,
+				"Attack": 20,
+				"Defense": 15,
+				"Sp_Attack": 105,
+				"Sp_Defense": 55,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 64,
+			"name": "Kadabra",
+			"type": ["Psychic"],
+			"base": {
+				"HP": 40,
+				"Attack": 35,
+				"Defense": 30,
+				"Sp_Attack": 120,
+				"Sp_Defense": 70,
+				"Speed": 105
+			}
+		},
+		{
+			"id": 65,
+			"name": "Alakazam",
+			"type": ["Psychic"],
+			"base": {
+				"HP": 55,
+				"Attack": 50,
+				"Defense": 45,
+				"Sp_Attack": 135,
+				"Sp_Defense": 95,
+				"Speed": 120
+			}
+		},
+		{
+			"id": 66,
+			"name": "Machop",
+			"type": ["Fighting"],
+			"base": {
+				"HP": 70,
+				"Attack": 80,
+				"Defense": 50,
+				"Sp_Attack": 35,
+				"Sp_Defense": 35,
+				"Speed": 35
+			}
+		},
+		{
+			"id": 67,
+			"name": "Machoke",
+			"type": ["Fighting"],
+			"base": {
+				"HP": 80,
+				"Attack": 100,
+				"Defense": 70,
+				"Sp_Attack": 50,
+				"Sp_Defense": 60,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 68,
+			"name": "Machamp",
+			"type": ["Fighting"],
+			"base": {
+				"HP": 90,
+				"Attack": 130,
+				"Defense": 80,
+				"Sp_Attack": 65,
+				"Sp_Defense": 85,
+				"Speed": 55
+			}
+		},
+		{
+			"id": 69,
+			"name": "Bellsprout",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 50,
+				"Attack": 75,
+				"Defense": 35,
+				"Sp_Attack": 70,
+				"Sp_Defense": 30,
+				"Speed": 40
+			}
+		},
+		{
+			"id": 70,
+			"name": "Weepinbell",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 65,
+				"Attack": 90,
+				"Defense": 50,
+				"Sp_Attack": 85,
+				"Sp_Defense": 45,
+				"Speed": 55
+			}
+		},
+		{
+			"id": 71,
+			"name": "Victreebel",
+			"type": ["Grass", "Poison"],
+			"base": {
+				"HP": 80,
+				"Attack": 105,
+				"Defense": 65,
+				"Sp_Attack": 100,
+				"Sp_Defense": 70,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 72,
+			"name": "Tentacool",
+			"type": ["Water", "Poison"],
+			"base": {
+				"HP": 40,
+				"Attack": 40,
+				"Defense": 35,
+				"Sp_Attack": 50,
+				"Sp_Defense": 100,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 73,
+			"name": "Tentacruel",
+			"type": ["Water", "Poison"],
+			"base": {
+				"HP": 80,
+				"Attack": 70,
+				"Defense": 65,
+				"Sp_Attack": 80,
+				"Sp_Defense": 120,
+				"Speed": 100
+			}
+		},
+		{
+			"id": 74,
+			"name": "Geodude",
+			"type": ["Rock", "Ground"],
+			"base": {
+				"HP": 40,
+				"Attack": 80,
+				"Defense": 100,
+				"Sp_Attack": 30,
+				"Sp_Defense": 30,
+				"Speed": 20
+			}
+		},
+		{
+			"id": 75,
+			"name": "Graveler",
+			"type": ["Rock", "Ground"],
+			"base": {
+				"HP": 55,
+				"Attack": 95,
+				"Defense": 115,
+				"Sp_Attack": 45,
+				"Sp_Defense": 45,
+				"Speed": 35
+			}
+		},
+		{
+			"id": 76,
+			"name": "Golem",
+			"type": ["Rock", "Ground"],
+			"base": {
+				"HP": 80,
+				"Attack": 120,
+				"Defense": 130,
+				"Sp_Attack": 55,
+				"Sp_Defense": 65,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 77,
+			"name": "Ponyta",
+			"type": ["Fire"],
+			"base": {
+				"HP": 50,
+				"Attack": 85,
+				"Defense": 55,
+				"Sp_Attack": 65,
+				"Sp_Defense": 65,
+				"Speed": 90
+			}
+		},
+		{
+			"id": 78,
+			"name": "Rapidash",
+			"type": ["Fire"],
+			"base": {
+				"HP": 65,
+				"Attack": 100,
+				"Defense": 70,
+				"Sp_Attack": 80,
+				"Sp_Defense": 80,
+				"Speed": 105
+			}
+		},
+		{
+			"id": 79,
+			"name": "Slowpoke",
+			"type": ["Water", "Psychic"],
+			"base": {
+				"HP": 90,
+				"Attack": 65,
+				"Defense": 65,
+				"Sp_Attack": 40,
+				"Sp_Defense": 40,
+				"Speed": 15
+			}
+		},
+		{
+			"id": 80,
+			"name": "Slowbro",
+			"type": ["Water", "Psychic"],
+			"base": {
+				"HP": 95,
+				"Attack": 75,
+				"Defense": 110,
+				"Sp_Attack": 100,
+				"Sp_Defense": 80,
+				"Speed": 30
+			}
+		},
+		{
+			"id": 81,
+			"name": "Magnemite",
+			"type": ["Electric", "Steel"],
+			"base": {
+				"HP": 25,
+				"Attack": 35,
+				"Defense": 70,
+				"Sp_Attack": 95,
+				"Sp_Defense": 55,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 82,
+			"name": "Magneton",
+			"type": ["Electric", "Steel"],
+			"base": {
+				"HP": 50,
+				"Attack": 60,
+				"Defense": 95,
+				"Sp_Attack": 120,
+				"Sp_Defense": 70,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 83,
+			"name": "Farfetch'd",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 52,
+				"Attack": 90,
+				"Defense": 55,
+				"Sp_Attack": 58,
+				"Sp_Defense": 62,
+				"Speed": 60
+			}
+		},
+		{
+			"id": 84,
+			"name": "Doduo",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 35,
+				"Attack": 85,
+				"Defense": 45,
+				"Sp_Attack": 35,
+				"Sp_Defense": 35,
+				"Speed": 75
+			}
+		},
+		{
+			"id": 85,
+			"name": "Dodrio",
+			"type": ["Normal", "Flying"],
+			"base": {
+				"HP": 60,
+				"Attack": 110,
+				"Defense": 70,
+				"Sp_Attack": 60,
+				"Sp_Defense": 60,
+				"Speed": 110
+			}
+		},
+		{
+			"id": 86,
+			"name": "Seel",
+			"type": ["Water"],
+			"base": {
+				"HP": 65,
+				"Attack": 45,
+				"Defense": 55,
+				"Sp_Attack": 45,
+				"Sp_Defense": 70,
+				"Speed": 45
+			}
+		},
+		{
+			"id": 87,
+			"name": "Dewgong",
+			"type": ["Water", "Ice"],
+			"base": {
+				"HP": 90,
+				"Attack": 70,
+				"Defense": 80,
+				"Sp_Attack": 70,
+				"Sp_Defense": 95,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 88,
+			"name": "Grimer",
+			"type": ["Poison"],
+			"base": {
+				"HP": 80,
+				"Attack": 80,
+				"Defense": 50,
+				"Sp_Attack": 40,
+				"Sp_Defense": 50,
+				"Speed": 25
+			}
+		},
+		{
+			"id": 89,
+			"name": "Muk",
+			"type": ["Poison"],
+			"base": {
+				"HP": 105,
+				"Attack": 105,
+				"Defense": 75,
+				"Sp_Attack": 65,
+				"Sp_Defense": 100,
+				"Speed": 50
+			}
+		},
+		{
+			"id": 90,
+			"name": "Shellder",
+			"type": ["Water"],
+			"base": {
+				"HP": 30,
+				"Attack": 65,
+				"Defense": 100,
+				"Sp_Attack": 45,
+				"Sp_Defense": 25,
+				"Speed": 40
+			}
+		},
+		{
+			"id": 91,
+			"name": "Cloyster",
+			"type": ["Water", "Ice"],
+			"base": {
+				"HP": 50,
+				"Attack": 95,
+				"Defense": 180,
+				"Sp_Attack": 85,
+				"Sp_Defense": 45,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 92,
+			"name": "Gastly",
+			"type": ["Ghost", "Poison"],
+			"base": {
+				"HP": 30,
+				"Attack": 35,
+				"Defense": 30,
+				"Sp_Attack": 100,
+				"Sp_Defense": 35,
+				"Speed": 80
+			}
+		},
+		{
+			"id": 93,
+			"name": "Haunter",
+			"type": ["Ghost", "Poison"],
+			"base": {
+				"HP": 45,
+				"Attack": 50,
+				"Defense": 45,
+				"Sp_Attack": 115,
+				"Sp_Defense": 55,
+				"Speed": 95
+			}
+		},
+		{
+			"id": 94,
+			"name": "Gengar",
+			"type": ["Ghost", "Poison"],
+			"base": {
+				"HP": 60,
+				"Attack": 65,
+				"Defense": 60,
+				"Sp_Attack": 130,
+				"Sp_Defense": 75,
+				"Speed": 110
+			}
+		},
+		{
+			"id": 95,
+			"name": "Onix",
+			"type": ["Rock", "Ground"],
+			"base": {
+				"HP": 35,
+				"Attack": 45,
+				"Defense": 160,
+				"Sp_Attack": 30,
+				"Sp_Defense": 45,
+				"Speed": 70
+			}
+		},
+		{
+			"id": 96,
+			"name": "Drowzee",
+			"type": ["Psychic"],
+			"base": {
+				"HP": 60,
+				"Attack": 48,
+				"Defense": 45,
+				"Sp_Attack": 43,
+				"Sp_Defense": 90,
+				"Speed": 42
+			}
+		},
+		{
+			"id": 97,
+			"name": "Hypno",
+			"type": ["Psychic"],
+			"base": {
+				"HP": 85,
+				"Attack": 73,
+				"Defense": 70,
+				"Sp_Attack": 73,
+				"Sp_Defense": 115,
+				"Speed": 67
+			}
+		},
+		{
+			"id": 98,
+			"name": "Krabby",
+			"type": ["Water"],
+			"base": {
+				"HP": 30,
+				"Attack": 105,
+				"Defense": 90,
+				"Sp_Attack": 25,
+				"Sp_Defense": 25,
+				"Speed": 50
+			}
+		},
+		{
+			"id": 99,
+			"name": "Kingler",
+			"type": ["Water"],
+			"base": {
+				"HP": 55,
+				"Attack": 130,
+				"Defense": 115,
+				"Sp_Attack": 50,
+				"Sp_Defense": 50,
+				"Speed": 75
+			}
+		},
+		{
+			"id": 100,
+			"name": "Voltorb",
+			"type": ["Electric"],
+			"base": {
+				"HP": 40,
+				"Attack": 30,
+				"Defense": 50,
+				"Sp_Attack": 55,
+				"Sp_Defense": 55,
+				"Speed": 100
+			}
+		}
+	],
+	"items": [
+		{
+			"id": 0,
+			"name": "None"
+		},
+		{
+			"id": 1,
+			"name": "Master Ball"
+		},
+		{
+			"id": 2,
+			"name": "Ultra Ball"
+		},
+		{
+			"id": 3,
+			"name": "Great Ball"
+		},
+		{
+			"id": 4,
+			"name": "Poké Ball"
+		},
+		{
+			"id": 5,
+			"name": "Safari Ball"
+		},
+		{
+			"id": 6,
+			"name": "Net Ball"
+		},
+		{
+			"id": 7,
+			"name": "Dive Ball"
+		},
+		{
+			"id": 8,
+			"name": "Nest Ball"
+		},
+		{
+			"id": 9,
+			"name": "Repeat Ball"
+		},
+		{
+			"id": 10,
+			"name": "Timer Ball"
+		},
+		{
+			"id": 11,
+			"name": "Luxury Ball"
+		},
+		{
+			"id": 12,
+			"name": "Premier Ball"
+		},
+		{
+			"id": 13,
+			"name": "Dusk Ball"
+		},
+		{
+			"id": 14,
+			"name": "Heal Ball"
+		},
+		{
+			"id": 15,
+			"name": "Quick Ball"
+		},
+		{
+			"id": 16,
+			"name": "Cherish Ball"
+		},
+		{
+			"id": 17,
+			"name": "Potion"
+		},
+		{
+			"id": 18,
+			"name": "Antidote"
+		},
+		{
+			"id": 19,
+			"name": "Burn Heal"
+		},
+		{
+			"id": 20,
+			"name": "Ice Heal"
+		},
+		{
+			"id": 21,
+			"name": "Awakening"
+		},
+		{
+			"id": 22,
+			"name": "Paralyze Heal"
+		},
+		{
+			"id": 23,
+			"name": "Full Restore"
+		},
+		{
+			"id": 24,
+			"name": "Max Potion"
+		},
+		{
+			"id": 25,
+			"name": "Hyper Potion"
+		},
+		{
+			"id": 26,
+			"name": "Super Potion"
+		},
+		{
+			"id": 27,
+			"name": "Full Heal"
+		},
+		{
+			"id": 28,
+			"name": "Revive"
+		},
+		{
+			"id": 29,
+			"name": "Max Revive"
+		},
+		{
+			"id": 30,
+			"name": "Fresh Water"
+		},
+		{
+			"id": 31,
+			"name": "Soda Pop"
+		},
+		{
+			"id": 32,
+			"name": "Lemonade"
+		},
+		{
+			"id": 33,
+			"name": "Moomoo Milk"
+		},
+		{
+			"id": 34,
+			"name": "Energy Powder"
+		},
+		{
+			"id": 35,
+			"name": "Energy Root"
+		},
+		{
+			"id": 36,
+			"name": "Heal Powder"
+		},
+		{
+			"id": 37,
+			"name": "Revival Herb"
+		},
+		{
+			"id": 38,
+			"name": "Ether"
+		},
+		{
+			"id": 39,
+			"name": "Max Ether"
+		},
+		{
+			"id": 40,
+			"name": "Elixir"
+		},
+		{
+			"id": 41,
+			"name": "Max Elixir"
+		},
+		{
+			"id": 42,
+			"name": "Lava Cookie"
+		},
+		{
+			"id": 43,
+			"name": "Berry Juice"
+		},
+		{
+			"id": 44,
+			"name": "Sacred Ash"
+		},
+		{
+			"id": 45,
+			"name": "HP Up"
+		},
+		{
+			"id": 46,
+			"name": "Protein"
+		},
+		{
+			"id": 47,
+			"name": "Iron"
+		},
+		{
+			"id": 48,
+			"name": "Carbos"
+		},
+		{
+			"id": 49,
+			"name": "Calcium"
+		},
+		{
+			"id": 50,
+			"name": "Rare Candy"
+		},
+		{
+			"id": 51,
+			"name": "PP Up"
+		},
+		{
+			"id": 52,
+			"name": "Zinc"
+		},
+		{
+			"id": 53,
+			"name": "PP Max"
+		},
+		{
+			"id": 54,
+			"name": "Old Gateau"
+		},
+		{
+			"id": 55,
+			"name": "Guard Spec."
+		},
+		{
+			"id": 56,
+			"name": "Dire Hit"
+		},
+		{
+			"id": 57,
+			"name": "X Attack"
+		},
+		{
+			"id": 58,
+			"name": "X Defense"
+		},
+		{
+			"id": 59,
+			"name": "X Speed"
+		},
+		{
+			"id": 60,
+			"name": "X Accuracy"
+		},
+		{
+			"id": 61,
+			"name": "X Sp. Atk"
+		},
+		{
+			"id": 62,
+			"name": "X Sp. Def"
+		},
+		{
+			"id": 63,
+			"name": "Poké Doll"
+		},
+		{
+			"id": 64,
+			"name": "Fluffy Tail"
+		},
+		{
+			"id": 65,
+			"name": "Blue Flute"
+		},
+		{
+			"id": 66,
+			"name": "Yellow Flute"
+		},
+		{
+			"id": 67,
+			"name": "Red Flute"
+		},
+		{
+			"id": 68,
+			"name": "Black Flute"
+		},
+		{
+			"id": 69,
+			"name": "White Flute"
+		},
+		{
+			"id": 70,
+			"name": "Shoal Salt"
+		},
+		{
+			"id": 71,
+			"name": "Shoal Shell"
+		},
+		{
+			"id": 72,
+			"name": "Red Shard"
+		},
+		{
+			"id": 73,
+			"name": "Blue Shard"
+		},
+		{
+			"id": 74,
+			"name": "Yellow Shard"
+		},
+		{
+			"id": 75,
+			"name": "Green Shard"
+		},
+		{
+			"id": 76,
+			"name": "Super Repel"
+		},
+		{
+			"id": 77,
+			"name": "Max Repel"
+		},
+		{
+			"id": 78,
+			"name": "Escape Rope"
+		},
+		{
+			"id": 79,
+			"name": "Repel"
+		},
+		{
+			"id": 80,
+			"name": "Sun Stone"
+		},
+		{
+			"id": 81,
+			"name": "Moon Stone"
+		},
+		{
+			"id": 82,
+			"name": "Fire Stone"
+		},
+		{
+			"id": 83,
+			"name": "Thunder Stone"
+		},
+		{
+			"id": 84,
+			"name": "Water Stone"
+		},
+		{
+			"id": 85,
+			"name": "Leaf Stone"
+		},
+		{
+			"id": 86,
+			"name": "Tiny Mushroom"
+		},
+		{
+			"id": 87,
+			"name": "Big Mushroom"
+		},
+		{
+			"id": 88,
+			"name": "Pearl"
+		},
+		{
+			"id": 89,
+			"name": "Big Pearl"
+		},
+		{
+			"id": 90,
+			"name": "Stardust"
+		},
+		{
+			"id": 91,
+			"name": "Star Piece"
+		},
+		{
+			"id": 92,
+			"name": "Nugget"
+		},
+		{
+			"id": 93,
+			"name": "Heart Scale"
+		},
+		{
+			"id": 94,
+			"name": "Honey"
+		},
+		{
+			"id": 95,
+			"name": "Growth Mulch"
+		},
+		{
+			"id": 96,
+			"name": "Damp Mulch"
+		},
+		{
+			"id": 97,
+			"name": "Stable Mulch"
+		},
+		{
+			"id": 98,
+			"name": "Gooey Mulch"
+		},
+		{
+			"id": 99,
+			"name": "Root Fossil"
+		}
+	],
+	"moves": [
+		{
+			"accuracy": 100,
+			"category": "Pound",
+			"id": 1,
+			"power": 40,
+			"pp": 35,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Karate Chop",
+			"id": 2,
+			"power": 50,
+			"pp": 25,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 85,
+			"category": "Double Slap",
+			"id": 3,
+			"power": 15,
+			"pp": 10,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 85,
+			"category": "Comet Punch",
+			"id": 4,
+			"power": 18,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 85,
+			"category": "Mega Punch",
+			"id": 5,
+			"power": 80,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Pay Day",
+			"id": 6,
+			"power": 40,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Fire Punch",
+			"id": 7,
+			"power": 75,
+			"pp": 15,
+			"type": "Fire"
+		},
+		{
+			"accuracy": 100,
+			"category": "Ice Punch",
+			"id": 8,
+			"power": 75,
+			"pp": 15,
+			"type": "Ice"
+		},
+		{
+			"accuracy": 100,
+			"category": "Thunder Punch",
+			"id": 9,
+			"power": 75,
+			"pp": 15,
+			"type": "Electric"
+		},
+		{
+			"accuracy": 100,
+			"category": "Scratch",
+			"id": 10,
+			"power": 40,
+			"pp": 35,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Vice Grip",
+			"id": 11,
+			"power": 55,
+			"pp": 30,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 30,
+			"category": "Guillotine",
+			"id": 12,
+			"power": null,
+			"pp": 5,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Razor Wind",
+			"id": 13,
+			"power": 80,
+			"pp": 10,
+			"type": "Normal"
+		},
+		{
+			"accuracy": null,
+			"category": "Swords Dance",
+			"id": 14,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 95,
+			"category": "Cut",
+			"id": 15,
+			"power": 50,
+			"pp": 30,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Gust",
+			"id": 16,
+			"power": 40,
+			"pp": 35,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Wing Attack",
+			"id": 17,
+			"power": 60,
+			"pp": 35,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Whirlwind",
+			"id": 18,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 95,
+			"category": "Fly",
+			"id": 19,
+			"power": 90,
+			"pp": 15,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 85,
+			"category": "Bind",
+			"id": 20,
+			"power": 15,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 75,
+			"category": "Slam",
+			"id": 21,
+			"power": 80,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Vine Whip",
+			"id": 22,
+			"power": 45,
+			"pp": 25,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 100,
+			"category": "Stomp",
+			"id": 23,
+			"power": 65,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Double Kick",
+			"id": 24,
+			"power": 30,
+			"pp": 30,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 75,
+			"category": "Mega Kick",
+			"id": 25,
+			"power": 120,
+			"pp": 5,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 95,
+			"category": "Jump Kick",
+			"id": 26,
+			"power": 130,
+			"pp": 10,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 85,
+			"category": "Rolling Kick",
+			"id": 27,
+			"power": 60,
+			"pp": 15,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Sand Attack",
+			"id": 28,
+			"power": null,
+			"pp": 15,
+			"type": "Ground"
+		},
+		{
+			"accuracy": 100,
+			"category": "Headbutt",
+			"id": 29,
+			"power": 70,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Horn Attack",
+			"id": 30,
+			"power": 65,
+			"pp": 25,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 85,
+			"category": "Fury Attack",
+			"id": 31,
+			"power": 15,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 30,
+			"category": "Horn Drill",
+			"id": 32,
+			"power": null,
+			"pp": 5,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Tackle",
+			"id": 33,
+			"power": 50,
+			"pp": 35,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Body Slam",
+			"id": 34,
+			"power": 85,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 90,
+			"category": "Wrap",
+			"id": 35,
+			"power": 15,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 85,
+			"category": "Take Down",
+			"id": 36,
+			"power": 90,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Thrash",
+			"id": 37,
+			"power": 120,
+			"pp": 10,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Double-Edge",
+			"id": 38,
+			"power": 120,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Tail Whip",
+			"id": 39,
+			"power": null,
+			"pp": 30,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Poison Sting",
+			"id": 40,
+			"power": 15,
+			"pp": 35,
+			"type": "Poison"
+		},
+		{
+			"accuracy": 100,
+			"category": "Twineedle",
+			"id": 41,
+			"power": 25,
+			"pp": 20,
+			"type": "Bug"
+		},
+		{
+			"accuracy": 95,
+			"category": "Pin Missile",
+			"id": 42,
+			"power": 25,
+			"pp": 20,
+			"type": "Bug"
+		},
+		{
+			"accuracy": 100,
+			"category": "Leer",
+			"id": 43,
+			"power": null,
+			"pp": 30,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Bite",
+			"id": 44,
+			"power": 60,
+			"pp": 25,
+			"type": "Dark"
+		},
+		{
+			"accuracy": 100,
+			"category": "Growl",
+			"id": 45,
+			"power": null,
+			"pp": 40,
+			"type": "Normal"
+		},
+		{
+			"accuracy": null,
+			"category": "Roar",
+			"id": 46,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 55,
+			"category": "Sing",
+			"id": 47,
+			"power": null,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 55,
+			"category": "Supersonic",
+			"id": 48,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 90,
+			"category": "Sonic Boom",
+			"id": 49,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Disable",
+			"id": 50,
+			"power": null,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Acid",
+			"id": 51,
+			"power": 40,
+			"pp": 30,
+			"type": "Poison"
+		},
+		{
+			"accuracy": 100,
+			"category": "Ember",
+			"id": 52,
+			"power": 40,
+			"pp": 25,
+			"type": "Fire"
+		},
+		{
+			"accuracy": 100,
+			"category": "Flamethrower",
+			"id": 53,
+			"power": 90,
+			"pp": 15,
+			"type": "Fire"
+		},
+		{
+			"accuracy": null,
+			"category": "Mist",
+			"id": 54,
+			"power": null,
+			"pp": 30,
+			"type": "Ice"
+		},
+		{
+			"accuracy": 100,
+			"category": "Water Gun",
+			"id": 55,
+			"power": 40,
+			"pp": 25,
+			"type": "Water"
+		},
+		{
+			"accuracy": 80,
+			"category": "Hydro Pump",
+			"id": 56,
+			"power": 110,
+			"pp": 5,
+			"type": "Water"
+		},
+		{
+			"accuracy": 100,
+			"category": "Surf",
+			"id": 57,
+			"power": 90,
+			"pp": 15,
+			"type": "Water"
+		},
+		{
+			"accuracy": 100,
+			"category": "Ice Beam",
+			"id": 58,
+			"power": 90,
+			"pp": 10,
+			"type": "Ice"
+		},
+		{
+			"accuracy": 70,
+			"category": "Blizzard",
+			"id": 59,
+			"power": 110,
+			"pp": 5,
+			"type": "Ice"
+		},
+		{
+			"accuracy": 100,
+			"category": "Psybeam",
+			"id": 60,
+			"power": 65,
+			"pp": 20,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": 100,
+			"category": "Bubble Beam",
+			"id": 61,
+			"power": 65,
+			"pp": 20,
+			"type": "Water"
+		},
+		{
+			"accuracy": 100,
+			"category": "Aurora Beam",
+			"id": 62,
+			"power": 65,
+			"pp": 20,
+			"type": "Ice"
+		},
+		{
+			"accuracy": 90,
+			"category": "Hyper Beam",
+			"id": 63,
+			"power": 150,
+			"pp": 5,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Peck",
+			"id": 64,
+			"power": 35,
+			"pp": 35,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Drill Peck",
+			"id": 65,
+			"power": 80,
+			"pp": 20,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 80,
+			"category": "Submission",
+			"id": 66,
+			"power": 80,
+			"pp": 25,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Low Kick",
+			"id": 67,
+			"power": null,
+			"pp": 20,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Counter",
+			"id": 68,
+			"power": null,
+			"pp": 20,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Seismic Toss",
+			"id": 69,
+			"power": null,
+			"pp": 20,
+			"type": "Fighting"
+		},
+		{
+			"accuracy": 100,
+			"category": "Strength",
+			"id": 70,
+			"power": 80,
+			"pp": 15,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Absorb",
+			"id": 71,
+			"power": 20,
+			"pp": 25,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 100,
+			"category": "Mega Drain",
+			"id": 72,
+			"power": 40,
+			"pp": 15,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 90,
+			"category": "Leech Seed",
+			"id": 73,
+			"power": null,
+			"pp": 10,
+			"type": "Grass"
+		},
+		{
+			"accuracy": null,
+			"category": "Growth",
+			"id": 74,
+			"power": null,
+			"pp": 40,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 95,
+			"category": "Razor Leaf",
+			"id": 75,
+			"power": 55,
+			"pp": 25,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 100,
+			"category": "Solar Beam",
+			"id": 76,
+			"power": 120,
+			"pp": 10,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 75,
+			"category": "Poison Powder",
+			"id": 77,
+			"power": null,
+			"pp": 35,
+			"type": "Poison"
+		},
+		{
+			"accuracy": 75,
+			"category": "Stun Spore",
+			"id": 78,
+			"power": null,
+			"pp": 30,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 75,
+			"category": "Sleep Powder",
+			"id": 79,
+			"power": null,
+			"pp": 15,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 100,
+			"category": "Petal Dance",
+			"id": 80,
+			"power": 120,
+			"pp": 10,
+			"type": "Grass"
+		},
+		{
+			"accuracy": 95,
+			"category": "String Shot",
+			"id": 81,
+			"power": null,
+			"pp": 40,
+			"type": "Bug"
+		},
+		{
+			"accuracy": 100,
+			"category": "Dragon Rage",
+			"id": 82,
+			"power": null,
+			"pp": 10,
+			"type": "Dragon"
+		},
+		{
+			"accuracy": 85,
+			"category": "Fire Spin",
+			"id": 83,
+			"power": 35,
+			"pp": 15,
+			"type": "Fire"
+		},
+		{
+			"accuracy": 100,
+			"category": "Thunder Shock",
+			"id": 84,
+			"power": 40,
+			"pp": 30,
+			"type": "Electric"
+		},
+		{
+			"accuracy": 100,
+			"category": "Thunderbolt",
+			"id": 85,
+			"power": 90,
+			"pp": 15,
+			"type": "Electric"
+		},
+		{
+			"accuracy": 100,
+			"category": "Thunder Wave",
+			"id": 86,
+			"power": null,
+			"pp": 20,
+			"type": "Electric"
+		},
+		{
+			"accuracy": 70,
+			"category": "Thunder",
+			"id": 87,
+			"power": 110,
+			"pp": 10,
+			"type": "Electric"
+		},
+		{
+			"accuracy": 90,
+			"category": "Rock Throw",
+			"id": 88,
+			"power": 50,
+			"pp": 15,
+			"type": "Rock"
+		},
+		{
+			"accuracy": 100,
+			"category": "Earthquake",
+			"id": 89,
+			"power": 100,
+			"pp": 10,
+			"type": "Ground"
+		},
+		{
+			"accuracy": 30,
+			"category": "Fissure",
+			"id": 90,
+			"power": null,
+			"pp": 5,
+			"type": "Ground"
+		},
+		{
+			"accuracy": 100,
+			"category": "Dig",
+			"id": 91,
+			"power": 80,
+			"pp": 10,
+			"type": "Ground"
+		},
+		{
+			"accuracy": 90,
+			"category": "Toxic",
+			"id": 92,
+			"power": null,
+			"pp": 10,
+			"type": "Poison"
+		},
+		{
+			"accuracy": 100,
+			"category": "Confusion",
+			"id": 93,
+			"power": 50,
+			"pp": 25,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": 100,
+			"category": "Psychic",
+			"id": 94,
+			"power": 90,
+			"pp": 10,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": 60,
+			"category": "Hypnosis",
+			"id": 95,
+			"power": null,
+			"pp": 20,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": null,
+			"category": "Meditate",
+			"id": 96,
+			"power": null,
+			"pp": 40,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": null,
+			"category": "Agility",
+			"id": 97,
+			"power": null,
+			"pp": 30,
+			"type": "Psychic"
+		},
+		{
+			"accuracy": 100,
+			"category": "Quick Attack",
+			"id": 98,
+			"power": 40,
+			"pp": 30,
+			"type": "Normal"
+		},
+		{
+			"accuracy": 100,
+			"category": "Rage",
+			"id": 99,
+			"power": 20,
+			"pp": 20,
+			"type": "Normal"
+		},
+		{
+			"accuracy": null,
+			"category": "Teleport",
+			"id": 100,
+			"power": null,
+			"pp": 20,
+			"type": "Psychic"
+		}
+	],
+	"types": [
+		"Normal",
+		"Fighting",
+		"Flying",
+		"Poison",
+		"Ground",
+		"Rock",
+		"Bug",
+		"Ghost",
+		"Steel",
+		"Fire",
+		"Water",
+		"Grass",
+		"Electric",
+		"Psychic",
+		"Ice",
+		"Dragon",
+		"Dark",
+		"Fairy"
+	]
+}

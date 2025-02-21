@@ -1,0 +1,802 @@
+[
+	{
+		"accuracy": 100,
+		"category": "Pound",
+		"id": 1,
+		"power": 40,
+		"pp": 35,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Karate Chop",
+		"id": 2,
+		"power": 50,
+		"pp": 25,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 85,
+		"category": "Double Slap",
+		"id": 3,
+		"power": 15,
+		"pp": 10,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 85,
+		"category": "Comet Punch",
+		"id": 4,
+		"power": 18,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 85,
+		"category": "Mega Punch",
+		"id": 5,
+		"power": 80,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Pay Day",
+		"id": 6,
+		"power": 40,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Fire Punch",
+		"id": 7,
+		"power": 75,
+		"pp": 15,
+		"type": "Fire"
+	},
+	{
+		"accuracy": 100,
+		"category": "Ice Punch",
+		"id": 8,
+		"power": 75,
+		"pp": 15,
+		"type": "Ice"
+	},
+	{
+		"accuracy": 100,
+		"category": "Thunder Punch",
+		"id": 9,
+		"power": 75,
+		"pp": 15,
+		"type": "Electric"
+	},
+	{
+		"accuracy": 100,
+		"category": "Scratch",
+		"id": 10,
+		"power": 40,
+		"pp": 35,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Vice Grip",
+		"id": 11,
+		"power": 55,
+		"pp": 30,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 30,
+		"category": "Guillotine",
+		"id": 12,
+		"power": null,
+		"pp": 5,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Razor Wind",
+		"id": 13,
+		"power": 80,
+		"pp": 10,
+		"type": "Normal"
+	},
+	{
+		"accuracy": null,
+		"category": "Swords Dance",
+		"id": 14,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 95,
+		"category": "Cut",
+		"id": 15,
+		"power": 50,
+		"pp": 30,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Gust",
+		"id": 16,
+		"power": 40,
+		"pp": 35,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Wing Attack",
+		"id": 17,
+		"power": 60,
+		"pp": 35,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Whirlwind",
+		"id": 18,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 95,
+		"category": "Fly",
+		"id": 19,
+		"power": 90,
+		"pp": 15,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 85,
+		"category": "Bind",
+		"id": 20,
+		"power": 15,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 75,
+		"category": "Slam",
+		"id": 21,
+		"power": 80,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Vine Whip",
+		"id": 22,
+		"power": 45,
+		"pp": 25,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 100,
+		"category": "Stomp",
+		"id": 23,
+		"power": 65,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Double Kick",
+		"id": 24,
+		"power": 30,
+		"pp": 30,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 75,
+		"category": "Mega Kick",
+		"id": 25,
+		"power": 120,
+		"pp": 5,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 95,
+		"category": "Jump Kick",
+		"id": 26,
+		"power": 130,
+		"pp": 10,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 85,
+		"category": "Rolling Kick",
+		"id": 27,
+		"power": 60,
+		"pp": 15,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Sand Attack",
+		"id": 28,
+		"power": null,
+		"pp": 15,
+		"type": "Ground"
+	},
+	{
+		"accuracy": 100,
+		"category": "Headbutt",
+		"id": 29,
+		"power": 70,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Horn Attack",
+		"id": 30,
+		"power": 65,
+		"pp": 25,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 85,
+		"category": "Fury Attack",
+		"id": 31,
+		"power": 15,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 30,
+		"category": "Horn Drill",
+		"id": 32,
+		"power": null,
+		"pp": 5,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Tackle",
+		"id": 33,
+		"power": 50,
+		"pp": 35,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Body Slam",
+		"id": 34,
+		"power": 85,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 90,
+		"category": "Wrap",
+		"id": 35,
+		"power": 15,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 85,
+		"category": "Take Down",
+		"id": 36,
+		"power": 90,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Thrash",
+		"id": 37,
+		"power": 120,
+		"pp": 10,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Double-Edge",
+		"id": 38,
+		"power": 120,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Tail Whip",
+		"id": 39,
+		"power": null,
+		"pp": 30,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Poison Sting",
+		"id": 40,
+		"power": 15,
+		"pp": 35,
+		"type": "Poison"
+	},
+	{
+		"accuracy": 100,
+		"category": "Twineedle",
+		"id": 41,
+		"power": 25,
+		"pp": 20,
+		"type": "Bug"
+	},
+	{
+		"accuracy": 95,
+		"category": "Pin Missile",
+		"id": 42,
+		"power": 25,
+		"pp": 20,
+		"type": "Bug"
+	},
+	{
+		"accuracy": 100,
+		"category": "Leer",
+		"id": 43,
+		"power": null,
+		"pp": 30,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Bite",
+		"id": 44,
+		"power": 60,
+		"pp": 25,
+		"type": "Dark"
+	},
+	{
+		"accuracy": 100,
+		"category": "Growl",
+		"id": 45,
+		"power": null,
+		"pp": 40,
+		"type": "Normal"
+	},
+	{
+		"accuracy": null,
+		"category": "Roar",
+		"id": 46,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 55,
+		"category": "Sing",
+		"id": 47,
+		"power": null,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 55,
+		"category": "Supersonic",
+		"id": 48,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 90,
+		"category": "Sonic Boom",
+		"id": 49,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Disable",
+		"id": 50,
+		"power": null,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Acid",
+		"id": 51,
+		"power": 40,
+		"pp": 30,
+		"type": "Poison"
+	},
+	{
+		"accuracy": 100,
+		"category": "Ember",
+		"id": 52,
+		"power": 40,
+		"pp": 25,
+		"type": "Fire"
+	},
+	{
+		"accuracy": 100,
+		"category": "Flamethrower",
+		"id": 53,
+		"power": 90,
+		"pp": 15,
+		"type": "Fire"
+	},
+	{
+		"accuracy": null,
+		"category": "Mist",
+		"id": 54,
+		"power": null,
+		"pp": 30,
+		"type": "Ice"
+	},
+	{
+		"accuracy": 100,
+		"category": "Water Gun",
+		"id": 55,
+		"power": 40,
+		"pp": 25,
+		"type": "Water"
+	},
+	{
+		"accuracy": 80,
+		"category": "Hydro Pump",
+		"id": 56,
+		"power": 110,
+		"pp": 5,
+		"type": "Water"
+	},
+	{
+		"accuracy": 100,
+		"category": "Surf",
+		"id": 57,
+		"power": 90,
+		"pp": 15,
+		"type": "Water"
+	},
+	{
+		"accuracy": 100,
+		"category": "Ice Beam",
+		"id": 58,
+		"power": 90,
+		"pp": 10,
+		"type": "Ice"
+	},
+	{
+		"accuracy": 70,
+		"category": "Blizzard",
+		"id": 59,
+		"power": 110,
+		"pp": 5,
+		"type": "Ice"
+	},
+	{
+		"accuracy": 100,
+		"category": "Psybeam",
+		"id": 60,
+		"power": 65,
+		"pp": 20,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": 100,
+		"category": "Bubble Beam",
+		"id": 61,
+		"power": 65,
+		"pp": 20,
+		"type": "Water"
+	},
+	{
+		"accuracy": 100,
+		"category": "Aurora Beam",
+		"id": 62,
+		"power": 65,
+		"pp": 20,
+		"type": "Ice"
+	},
+	{
+		"accuracy": 90,
+		"category": "Hyper Beam",
+		"id": 63,
+		"power": 150,
+		"pp": 5,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Peck",
+		"id": 64,
+		"power": 35,
+		"pp": 35,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Drill Peck",
+		"id": 65,
+		"power": 80,
+		"pp": 20,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 80,
+		"category": "Submission",
+		"id": 66,
+		"power": 80,
+		"pp": 25,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Low Kick",
+		"id": 67,
+		"power": null,
+		"pp": 20,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Counter",
+		"id": 68,
+		"power": null,
+		"pp": 20,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Seismic Toss",
+		"id": 69,
+		"power": null,
+		"pp": 20,
+		"type": "Fighting"
+	},
+	{
+		"accuracy": 100,
+		"category": "Strength",
+		"id": 70,
+		"power": 80,
+		"pp": 15,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Absorb",
+		"id": 71,
+		"power": 20,
+		"pp": 25,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 100,
+		"category": "Mega Drain",
+		"id": 72,
+		"power": 40,
+		"pp": 15,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 90,
+		"category": "Leech Seed",
+		"id": 73,
+		"power": null,
+		"pp": 10,
+		"type": "Grass"
+	},
+	{
+		"accuracy": null,
+		"category": "Growth",
+		"id": 74,
+		"power": null,
+		"pp": 40,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 95,
+		"category": "Razor Leaf",
+		"id": 75,
+		"power": 55,
+		"pp": 25,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 100,
+		"category": "Solar Beam",
+		"id": 76,
+		"power": 120,
+		"pp": 10,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 75,
+		"category": "Poison Powder",
+		"id": 77,
+		"power": null,
+		"pp": 35,
+		"type": "Poison"
+	},
+	{
+		"accuracy": 75,
+		"category": "Stun Spore",
+		"id": 78,
+		"power": null,
+		"pp": 30,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 75,
+		"category": "Sleep Powder",
+		"id": 79,
+		"power": null,
+		"pp": 15,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 100,
+		"category": "Petal Dance",
+		"id": 80,
+		"power": 120,
+		"pp": 10,
+		"type": "Grass"
+	},
+	{
+		"accuracy": 95,
+		"category": "String Shot",
+		"id": 81,
+		"power": null,
+		"pp": 40,
+		"type": "Bug"
+	},
+	{
+		"accuracy": 100,
+		"category": "Dragon Rage",
+		"id": 82,
+		"power": null,
+		"pp": 10,
+		"type": "Dragon"
+	},
+	{
+		"accuracy": 85,
+		"category": "Fire Spin",
+		"id": 83,
+		"power": 35,
+		"pp": 15,
+		"type": "Fire"
+	},
+	{
+		"accuracy": 100,
+		"category": "Thunder Shock",
+		"id": 84,
+		"power": 40,
+		"pp": 30,
+		"type": "Electric"
+	},
+	{
+		"accuracy": 100,
+		"category": "Thunderbolt",
+		"id": 85,
+		"power": 90,
+		"pp": 15,
+		"type": "Electric"
+	},
+	{
+		"accuracy": 100,
+		"category": "Thunder Wave",
+		"id": 86,
+		"power": null,
+		"pp": 20,
+		"type": "Electric"
+	},
+	{
+		"accuracy": 70,
+		"category": "Thunder",
+		"id": 87,
+		"power": 110,
+		"pp": 10,
+		"type": "Electric"
+	},
+	{
+		"accuracy": 90,
+		"category": "Rock Throw",
+		"id": 88,
+		"power": 50,
+		"pp": 15,
+		"type": "Rock"
+	},
+	{
+		"accuracy": 100,
+		"category": "Earthquake",
+		"id": 89,
+		"power": 100,
+		"pp": 10,
+		"type": "Ground"
+	},
+	{
+		"accuracy": 30,
+		"category": "Fissure",
+		"id": 90,
+		"power": null,
+		"pp": 5,
+		"type": "Ground"
+	},
+	{
+		"accuracy": 100,
+		"category": "Dig",
+		"id": 91,
+		"power": 80,
+		"pp": 10,
+		"type": "Ground"
+	},
+	{
+		"accuracy": 90,
+		"category": "Toxic",
+		"id": 92,
+		"power": null,
+		"pp": 10,
+		"type": "Poison"
+	},
+	{
+		"accuracy": 100,
+		"category": "Confusion",
+		"id": 93,
+		"power": 50,
+		"pp": 25,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": 100,
+		"category": "Psychic",
+		"id": 94,
+		"power": 90,
+		"pp": 10,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": 60,
+		"category": "Hypnosis",
+		"id": 95,
+		"power": null,
+		"pp": 20,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": null,
+		"category": "Meditate",
+		"id": 96,
+		"power": null,
+		"pp": 40,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": null,
+		"category": "Agility",
+		"id": 97,
+		"power": null,
+		"pp": 30,
+		"type": "Psychic"
+	},
+	{
+		"accuracy": 100,
+		"category": "Quick Attack",
+		"id": 98,
+		"power": 40,
+		"pp": 30,
+		"type": "Normal"
+	},
+	{
+		"accuracy": 100,
+		"category": "Rage",
+		"id": 99,
+		"power": 20,
+		"pp": 20,
+		"type": "Normal"
+	},
+	{
+		"accuracy": null,
+		"category": "Teleport",
+		"id": 100,
+		"power": null,
+		"pp": 20,
+		"type": "Psychic"
+	}
+]

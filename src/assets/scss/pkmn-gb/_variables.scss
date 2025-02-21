@@ -1,0 +1,49 @@
+// $spacing-base: 1rem;
+// $page-width: 760px;
+
+:root {
+	--page-width: #{$page-width};
+	--page-width-sm: 360px;
+	--spacing-base: #{$spacing-base};
+	--spacing-xs: calc(var(--spacing-base) * 0.25);
+	--spacing-sm: calc(var(--spacing-base) * 0.5);
+	--spacing-md: calc(var(--spacing-base) * 0.75);
+	--spacing-lg: calc(var(--spacing-base) * 1.5);
+	--spacing-xl: calc(var(--spacing-base) * 2);
+	--content-space: var(--spacing-base);
+	--page-space: var(--content-space);
+}
+
+:root {
+	--gb-100: #e0f8cf;
+	--gb-200: #86c06c;
+	--gb-300: #306850;
+	--gb-400: #102000;
+	--gb-gray-100: #f8f8f8;
+	--gb-gray-200: #a8a8a8;
+	--gb-gray-300: #585858;
+	--gb-gray-400: #080808;
+}
+$font-content: 'Press Start 2P';
+$font-heading: 'Press Start 2P';
+
+// Colours
+$neutral: #f8f3f8;
+$contrast: #181010;
+$primary-accent: #48a058;
+$secondary-accent: #f0b088;
+$danger-accent: #b3181c;
+$dimmed: change-color($contrast, $alpha: 0.6);
+$dimmed-light: change-color($neutral, $alpha: 0.6);
+$min-width: 320px;
+$size: 2em;
+$padding: 1em;
+$medium-padding: 2em;
+$big-padding: 4em;
+$huge-padding: 8em;
+$small-modifier: 0.5;
+
+// Device breakpoints
+$small: 480px;
+$medium: 768px;
+$large: 1024px;
