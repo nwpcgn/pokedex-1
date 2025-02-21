@@ -12,7 +12,9 @@
 </script>
 
 <div
-	class="battle-grid" class:lootActive class:enemyActive
+	class="battle-grid"
+	class:lootActive
+	class:enemyActive
 	style="--gg-rw: {options.width}; --gg-rh: {options.height}; --gg-rs: {options.size}px;">
 	{#each grid as row, y}
 		{#each row as col, x}
@@ -34,5 +36,4 @@
 </div>
 
 <style>
-
 </style>

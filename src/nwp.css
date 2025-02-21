@@ -81,7 +81,7 @@ body {
 	display: flex;
 }
 
-.main-sb>aside {
+.main-sb > aside {
 	overflow: hidden;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -89,7 +89,7 @@ body {
 	position: relative;
 }
 
-.main-sb>article {
+.main-sb > article {
 	position: relative;
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
@@ -133,7 +133,8 @@ body {
 }
 
 .page-layer.nwp {
-	-webkit-animation: var(--ad) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
+	-webkit-animation: var(--ad) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center
+		both;
 	animation: var(--ad) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
 	-webkit-animation-delay: 0.4s;
 	animation-delay: 0.4s;
@@ -220,8 +221,10 @@ body {
 
 .circle-center,
 [transition-style='out:circle:center'] {
-	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-center both;
-	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-center both;
+	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1)
+		circle-out-center both;
+	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-center
+		both;
 	-webkit-animation-delay: var(--del, 0s);
 	animation-delay: var(--del, 0s);
 }
@@ -251,8 +254,10 @@ body {
 }
 
 [transition-style='in:circle:center'] {
-	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
-	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
+	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1)
+		circle-in-center both;
+	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-center
+		both;
 	-webkit-animation-delay: var(--del, 0.1s);
 	animation-delay: var(--del, 0.1s);
 }
@@ -293,8 +298,10 @@ body {
 
 .circle-out,
 [transition-style='out:circle:hesitate'] {
-	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
-	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
+	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1)
+		circle-out-hesitate both;
+	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate
+		both;
 	-webkit-animation-delay: var(--del, 0.6s);
 	animation-delay: var(--del, 0.6s);
 }
@@ -335,8 +342,10 @@ body {
 
 .circle-in,
 [transition-style='in:circle:hesitate'] {
-	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
-	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
+	-webkit-animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1)
+		circle-in-hesitate both;
+	animation: var(--dur, 2.5s) cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate
+		both;
 	-webkit-animation-delay: var(--del, 0.1s);
 	animation-delay: var(--del, 0.1s);
 }
@@ -491,13 +500,13 @@ svg.icon {
 	max-width: 100%;
 }
 
-.resp-media>* {
+.resp-media > * {
 	grid-row: 1;
 	grid-column: 1;
 }
 
-.resp-media>img,
-.resp-media>video {
+.resp-media > img,
+.resp-media > video {
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -507,8 +516,8 @@ svg.icon {
 	transition: transform 0.2s ease-in-out;
 }
 
-.resp-media>img.closed,
-.resp-media>video.closed {
+.resp-media > img.closed,
+.resp-media > video.closed {
 	transform: translateY(-100%);
 }
 
@@ -636,7 +645,6 @@ svg.icon {
 	padding: var(--spacing-xs);
 }
 
-
 /* ------------------------------- Battle Grid ------------------------------ */
 
 .battle-grid {
@@ -651,7 +659,7 @@ svg.icon {
 	border: 1px solid var(--color-base-300);
 }
 
-.battle-grid>* {
+.battle-grid > * {
 	display: grid;
 	place-content: center;
 	background-color: var(--bg, var(--color-base-100));
@@ -679,7 +687,7 @@ svg.icon {
 	color: var(--color-base-200);
 }
 
-.enemyActive>.tile-enemy {
+.enemyActive > .tile-enemy {
 	--bg: var(--color-error);
 	color: var(--color-error);
 }
@@ -689,7 +697,7 @@ svg.icon {
 	color: var(--color-base-200);
 }
 
-.lootActive>.tile-loot {
+.lootActive > .tile-loot {
 	--bg: var(--color-warning);
 	color: var(--color-warning);
 }
@@ -711,7 +719,7 @@ svg.icon {
 	overflow: hidden;
 }
 
-.battle-grid-wrapp>.battle-grid {
+.battle-grid-wrapp > .battle-grid {
 	grid-row: 1;
 	grid-column: 1;
 }

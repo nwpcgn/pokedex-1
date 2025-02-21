@@ -124,12 +124,11 @@
 		{/if}
 
 		<div class="modal-action">
-			{#if selectedMonster}
-				<button class="btn" onclick={() => handlePkmnSelect(selectedMonster)}
-					>Select</button>
-			{/if}
 			<form method="dialog">
-				<!-- if there is a button in form, it will close the modal -->
+				{#if selectedMonster}
+					<button class="btn" onclick={() => handlePkmnSelect(selectedMonster)}
+						>Select</button>
+				{/if}
 				<button class="btn">Close</button>
 			</form>
 		</div>
