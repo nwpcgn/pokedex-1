@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { getTypeStyle } from '../game.svelte.js'
-	let { current } = $props()
+	let { current, expand = false } = $props()
 </script>
 
 <section class="flex flex-col p-4">
@@ -33,20 +33,22 @@
 					style={getTypeStyle(item)}>{item}</span>
 			{/each}
 		</div>
-		<!---->
 	</article>
-	<footer>
-		<div class="grid gap-1 py-2">
-			{#if Object.entries(current.base)}
-				{#each Object.entries(current.base) as [label, val]}
-					<div class="flex items-center justify-between gap-2 capitalize">
-						<span class="w-1/4 truncate italic">{label.replace('_', ' ')}</span>
-						<progress class="progress w-full" max="100" value={val}></progress>
-						<span class=" font-bold">{val}</span>
-					</div>
-				{/each}
-			{/if}
-		</div>
-		<!---->
-	</footer>
+	{#if expand}
+		<footer>
+			<div class="grid gap-1 py-2">
+				{#if Object.entries(current.base)}
+					{#each Object.entries(current.base) as [label, val]}
+						<div class="flex items-center justify-between gap-2 capitalize">
+							<span class="w-1/4 truncate italic"
+								>{label.replace('_', ' ')}</span>
+							<progress class="progress w-full" max="100" value={val}
+							></progress>
+							<span class=" font-bold">{val}</span>
+						</div>
+					{/each}
+				{/if}
+			</div>
+		</footer>
+	{/if}
 </section>

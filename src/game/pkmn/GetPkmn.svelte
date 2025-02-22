@@ -12,7 +12,7 @@
 </script>
 
 {#if current}
-	<PkmnCard {current}></PkmnCard>
+	<PkmnCard expand {current}></PkmnCard>
 	<div class="flex justify-center">
 		<div class="join">
 			<button class="btn join-item" onclick={() => handleAction(current)}

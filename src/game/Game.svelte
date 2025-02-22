@@ -3,6 +3,7 @@
 	import { player, enemy, game } from './game.svelte.ts'
 	import PkmnCard from './pkmn/PkmnCard.svelte'
 	import sleep from '../lib/utils/sleep'
+	import World from './pkmn/World.svelte'
 	const views = [
 		{
 			slug: 'loadEl',
@@ -19,6 +20,12 @@
 		{
 			slug: 'fightEl',
 			title: 'Fighter Page',
+			viewType: 'page',
+			order: 2
+		},
+		{
+			slug: 'worldEl',
+			title: 'World Page',
 			viewType: 'page',
 			order: 2
 		},
@@ -41,7 +48,15 @@
 			order: 5
 		}
 	]
-	const pages = [loadEl, landingEl, fightEl, opponEl, arenaEl, resultEl]
+	const pages = [
+		loadEl,
+		landingEl,
+		fightEl,
+		worldEl,
+		opponEl,
+		arenaEl,
+		resultEl
+	]
 
 	let viewId = $state(0)
 	let viewEnd = $state(views.length - 1)
@@ -70,9 +85,9 @@
 		if (viewId == 2) {
 			player.add(obj)
 			viewId = 3
-		} else if (viewId == 3) {
+		} else if (viewId == 4) {
 			enemy.add(obj)
-			viewId = 4
+			viewId = 5
 		}
 	}
 	$inspect('Player', player.pokemon)
@@ -179,7 +194,7 @@
 {/snippet}
 
 {#snippet arenaEl()}
-	<div>
+	<div class="grid gap-4 md:grid-cols-2">
 		{#if player.pokemon}
 			<PkmnCard current={player.pokemon} />
 		{/if}
@@ -188,7 +203,11 @@
 		{/if}
 	</div>
 {/snippet}
-
+{#snippet worldEl()}
+	<div class="relative h-full w-full">
+		<World />
+	</div>
+{/snippet}
 {#snippet resultEl()}
 	<div>
 		<hgroup>

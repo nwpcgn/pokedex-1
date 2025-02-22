@@ -1,5 +1,5 @@
 :root {
-	--page-width: 640px;
+	--page-width: 720px;
 	--page-width-sm: 360px;
 	--spacing-base: 1rem;
 	--spacing-xs: calc(var(--spacing-base) * 0.25);

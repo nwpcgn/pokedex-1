@@ -5,33 +5,33 @@
 		"viewType": "layer"
 	},
 	{
-		"slug": "landing",
-		"title": "Landing Page",
+		"slug": "start",
+		"title": "Pokemon Battle",
 		"viewType": "page"
 	},
 	{
-		"slug": "fight",
-		"title": "Fighter Page",
+		"slug": "tempel",
+		"title": "Tempel",
 		"viewType": "page"
 	},
 	{
 		"slug": "world",
-		"title": "World Page",
+		"title": "Map",
 		"viewType": "page"
 	},
 	{
-		"slug": "oppon",
-		"title": "Opponent Page",
+		"slug": "opponent",
+		"title": "Enemy contact",
 		"viewType": "page"
 	},
 	{
 		"slug": "arena",
-		"title": "Arena Page",
+		"title": "Battle Arena",
 		"viewType": "page"
 	},
 	{
 		"slug": "result",
-		"title": "Result Page",
+		"title": "Battle Result",
 		"viewType": "page"
 	}
 ]

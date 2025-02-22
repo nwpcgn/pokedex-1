@@ -33,27 +33,12 @@ export class Fighter {
 
 export let player = new Fighter()
 export let enemy = new Fighter()
-
-class Game {
-	pokedex: Pokemon = $state([])
-
-	constructor(pokedex) {
-		this.pokedex = pokedex
-	}
-
-	getPkmn() {
-		const pkmn = this.pokedex.shift()
-		return pkmn
-	}
-}
-
-export let game = new Game(pokedex)
-
-class Box {
+class World {
 	width = $state(0)
 	height = $state(0)
 	x = $state(0)
 	y = $state(0)
+	level = $state(1)
 	current = $derived(this.y * this.width + this.x)
 
 	constructor(width, height, x, y) {
@@ -69,7 +54,22 @@ class Box {
 	}
 }
 
-export let box = new Box(12, 12, 0, 0)
+
+class Game {
+	pokedex: Pokemon = $state([])
+	world = $state({})
+	constructor(pokedex, world) {
+		this.pokedex = pokedex
+		this.world = world
+	}
+
+	getPkmn() {
+		const pkmn = this.pokedex.shift()
+		return pkmn
+	}
+}
+
+export let game = new Game(pokedex, new World(12, 12, 0, 0))
 
 export const typeColor = {
 	Normal: '#A8A878',

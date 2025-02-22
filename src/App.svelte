@@ -1,7 +1,6 @@
 <script lang="ts">
-	import sleep from './lib/utils/sleep'
 	import sprites from './lib/sprites/sprites.json'
-	import Game from './game/Game.svelte'
+	import Game from './routes/Game.svelte'
 </script>
 
 <main class="main">
