@@ -40,51 +40,22 @@ export interface Views {
 
 export let player = new Fighter()
 export let enemy = new Fighter()
-class World {
-	width = $state(0)
-	height = $state(0)
-	x = $state(0)
-	y = $state(0)
-	level = $state(1)
-	current = $derived(this.y * this.width + this.x)
 
-	constructor(width, height, x, y) {
-		this.width = width
-		this.height = height
-		this.x = x
-		this.y = y
-	}
-
-	update(x, y) {
-		this.x = x
-		this.y = y
-	}
-}
 
 class Game {
 	pokedex: Pokemon = $state([])
-	world = $state({})
-	views: Views[] = $state(views)
-	viewId = $state(0)
-	constructor(pokedex, world) {
+	constructor(pokedex) {
 		this.pokedex = pokedex
-		this.world = world
 	}
 
 	getPkmn() {
 		const pkmn = this.pokedex.shift()
 		return pkmn
 	}
-
-	set current(value) {
-		this.viewId = Math.max(0, Math.min(this.views.length - 1, value))
-	}
-	get current() {
-		return this.viewId
-	}
 }
 
-export let game = new Game(pokedex, new World(12, 12, 0, 0))
+
+export let game = new Game(pokedex)
 
 export const typeColor = {
 	Normal: '#A8A878',

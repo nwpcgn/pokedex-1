@@ -1,6 +1,6 @@
 <script lang="ts">
 	import sprites from './lib/sprites/sprites.json'
-	import Game from './routes/Game.svelte'
+	import Game from './game/Game.svelte'
 </script>
 
 <main class="main">

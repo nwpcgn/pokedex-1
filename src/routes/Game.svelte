@@ -1,44 +1,29 @@
 <script lang="ts">
-  import Start from './Start.svelte';
-
-	import { game } from '../lib/game.svelte.ts'
-	import sleep from '../lib/utils/sleep.js'
-	let view = $derived(game.views[game.viewId])
-	const next = () => {
-		const newValue = game.current + 1
-		console.log({ newValue })
-		game.current = newValue
-	}
-	const back = () => {
-		const newValue = game.current - 1
-		game.current = newValue
-	}
-
-	$effect(async () => {
-		if (game.current == 0) {
-			await sleep(2000)
-			next()
+	import type { Route } from '@mateothegreat/svelte5-router'
+	import { route, Router, goto } from '@mateothegreat/svelte5-router'
+	import Pkmn from '../lib/battle/Pkmn.svelte'
+	const routes: Route[] = [
+		{
+			path: '',
+			component: Pkmn
+		},
+		{
+			path: 'start',
+			component: select
 		}
-	})
-    $inspect(game.views)
+	]
 </script>
 
-{#if game.viewId == 1}
+<Router basePath="/" {routes} />
+
+
+{#snippet select()}
 	<section class="page-layer nwp">
-		{#if view}
-			{@render header()}
-            <Start></Start>
-		{/if}
+		<article class="content">
+			<h1 class="text-4xl font-bold">Pkmn Select</h1>
+		</article>
 	</section>
-{:else if game.viewId == 2}
-	<section class="page-layer nwp">
-		{#if view}
-			{@render header()}
-		{/if}
-	</section>
-{:else}
-	{@render loaderComp()}
-{/if}
+{/snippet}
 
 {#snippet header()}
 	<header class="content">
