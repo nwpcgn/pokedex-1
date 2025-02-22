@@ -1,5 +1,5 @@
 import pokedex from './pokedex.json'
-import views from './views.json'
+
 export interface Pokemon {
 	id: number
 	name: string
@@ -41,11 +41,36 @@ export interface Views {
 export let player = new Fighter()
 export let enemy = new Fighter()
 
+class World {
+	width = $state(0)
+	height = $state(0)
+	x = $state(0)
+	y = $state(0)
+	level = $state(1)
+	current = $derived(this.y * this.width + this.x)
+
+	constructor(width, height, x, y) {
+		this.width = width
+		this.height = height
+		this.x = x
+		this.y = y
+	}
+
+	update(x, y) {
+		this.x = x
+		this.y = y
+	}
+}
+
 
 class Game {
 	pokedex: Pokemon = $state([])
-	constructor(pokedex) {
+	select: Pokemon = $state([])
+	world = $state({})
+	constructor(select, pokedex, world) {
+		this.select = select
 		this.pokedex = pokedex
+		this.world = world
 	}
 
 	getPkmn() {
@@ -53,9 +78,8 @@ class Game {
 		return pkmn
 	}
 }
-
-
-export let game = new Game(pokedex)
+const world1 = new World(12, 12, 0, 0)
+export let game = new Game(pokedex[0], pokedex[1], world1)
 
 export const typeColor = {
 	Normal: '#A8A878',

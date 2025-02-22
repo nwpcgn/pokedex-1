@@ -3,7 +3,7 @@
 	let { current, expand = false } = $props()
 </script>
 
-<section class="flex flex-col p-4">
+<section class="p-4">
 	<header class="text-center text-3xl font-extrabold capitalize">
 		{current.name}
 	</header>
